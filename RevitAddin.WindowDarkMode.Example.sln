@@ -1,0 +1,48 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.10.35013.160
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution", "Solution", "{71FE3ABE-0784-4789-9F6D-F514B8769B37}"
+	ProjectSection(SolutionItems) = preProject
+		CHANGELOG.md = CHANGELOG.md
+		LICENSE = LICENSE
+		README.md = README.md
+	EndProjectSection
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "RevitAddin.WindowDarkMode.Example", "RevitAddin.WindowDarkMode.Example\RevitAddin.WindowDarkMode.Example.csproj", "{1C057977-0E6B-470D-A67E-F47A61FE043C}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Build", "Build\Build.csproj", "{C48965E5-1C98-4092-ADD3-DE1F9444AFB4}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		2024|Any CPU = 2024|Any CPU
+		2025|Any CPU = 2025|Any CPU
+		Debug 2024|Any CPU = Debug 2024|Any CPU
+		Debug 2025|Any CPU = Debug 2025|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{1C057977-0E6B-470D-A67E-F47A61FE043C}.2024|Any CPU.ActiveCfg = 2024|Any CPU
+		{1C057977-0E6B-470D-A67E-F47A61FE043C}.2024|Any CPU.Build.0 = 2024|Any CPU
+		{1C057977-0E6B-470D-A67E-F47A61FE043C}.2025|Any CPU.ActiveCfg = 2025|Any CPU
+		{1C057977-0E6B-470D-A67E-F47A61FE043C}.2025|Any CPU.Build.0 = 2025|Any CPU
+		{1C057977-0E6B-470D-A67E-F47A61FE043C}.Debug 2024|Any CPU.ActiveCfg = Debug 2024|Any CPU
+		{1C057977-0E6B-470D-A67E-F47A61FE043C}.Debug 2024|Any CPU.Build.0 = Debug 2024|Any CPU
+		{1C057977-0E6B-470D-A67E-F47A61FE043C}.Debug 2025|Any CPU.ActiveCfg = Debug 2025|Any CPU
+		{1C057977-0E6B-470D-A67E-F47A61FE043C}.Debug 2025|Any CPU.Build.0 = Debug 2025|Any CPU
+		{C48965E5-1C98-4092-ADD3-DE1F9444AFB4}.2024|Any CPU.ActiveCfg = Debug|Any CPU
+		{C48965E5-1C98-4092-ADD3-DE1F9444AFB4}.2024|Any CPU.Build.0 = Debug|Any CPU
+		{C48965E5-1C98-4092-ADD3-DE1F9444AFB4}.2025|Any CPU.ActiveCfg = Debug|Any CPU
+		{C48965E5-1C98-4092-ADD3-DE1F9444AFB4}.2025|Any CPU.Build.0 = Debug|Any CPU
+		{C48965E5-1C98-4092-ADD3-DE1F9444AFB4}.Debug 2024|Any CPU.ActiveCfg = Debug|Any CPU
+		{C48965E5-1C98-4092-ADD3-DE1F9444AFB4}.Debug 2024|Any CPU.Build.0 = Debug|Any CPU
+		{C48965E5-1C98-4092-ADD3-DE1F9444AFB4}.Debug 2025|Any CPU.ActiveCfg = Debug|Any CPU
+		{C48965E5-1C98-4092-ADD3-DE1F9444AFB4}.Debug 2025|Any CPU.Build.0 = Debug|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {A84A414C-AA3E-46D7-B7CD-79D5BCECFF8B}
+	EndGlobalSection
+EndGlobal
