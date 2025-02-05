@@ -33,6 +33,8 @@ namespace RevitAddin.WindowDarkMode.Example.Views
                     DesktopWindowManager.SetCaptionColor(this, System.Drawing.Color.Blue);
                 else if (e.Key == System.Windows.Input.Key.C)
                     DesktopWindowManager.SetCaptionColor(this, System.Drawing.Color.Green);
+                else if (e.Key == System.Windows.Input.Key.V)
+                    DesktopWindowManager.SetCaptionColor(this, System.Drawing.Color.White);
                 else if (e.Key == System.Windows.Input.Key.D)
                 {
                     DesktopWindowManager.SetCaptionColor(this);
