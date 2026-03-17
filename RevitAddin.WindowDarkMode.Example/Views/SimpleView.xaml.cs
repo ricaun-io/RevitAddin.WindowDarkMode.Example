@@ -39,6 +39,14 @@ namespace RevitAddin.WindowDarkMode.Example.Views
                 {
                     DesktopWindowManager.SetCaptionColor(this);
                 }
+                else if (e.Key == System.Windows.Input.Key.Up)
+                {
+                    AppModeHelper.SetAppModeLight();
+                }
+                else if (e.Key == System.Windows.Input.Key.Down)
+                {
+                    AppModeHelper.SetAppModeDark();
+                }
                 else ChangeImmersiveDarkMode();
             };
         }

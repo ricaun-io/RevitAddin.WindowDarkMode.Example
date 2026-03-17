@@ -26,7 +26,7 @@ namespace RevitAddin.WindowDarkMode.Example.Views
         /// </summary>
         public static bool SetImmersiveDarkMode(IntPtr hWnd, bool enable)
         {
-            if (IsImmersiveDarkModeSupported == false) 
+            if (IsImmersiveDarkModeSupported == false)
                 return false;
 
             var darkMode = enable ? 1u : 0;
